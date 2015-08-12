@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QLt-BP-DAX">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Encanta Demo - Swift-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="EncantaDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Encanta live chat is ---" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Zt-eU-W34">
+                                <rect key="frame" x="16" y="72" width="231" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="EKy-pr-GRa"/>
+                                    <constraint firstAttribute="width" constant="231" id="iGu-0M-xkP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unread count: --" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Si-Vd-weU">
+                                <rect key="frame" x="16" y="101" width="231" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="7iu-y2-uCa"/>
+                                    <constraint firstAttribute="width" constant="231" id="MQ3-kD-gs5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9F-PD-iXq">
+                                <rect key="frame" x="16" y="130" width="88" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="rOQ-9K-VCH"/>
+                                    <constraint firstAttribute="height" constant="21" id="xcq-1t-03C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User's name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QeX-Fe-Nrw">
+                                <rect key="frame" x="112" y="126" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="FVQ-VH-Krb"/>
+                                    <constraint firstAttribute="width" constant="97" id="d5W-gU-UmS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="plF-Ch-O7H">
+                                <rect key="frame" x="217" y="126" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="c1O-ar-Hwe"/>
+                                    <constraint firstAttribute="width" constant="30" id="nnl-fQ-veK"/>
+                                </constraints>
+                                <state key="normal" title="Set">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onSetName" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Z3X-T4-T8h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S1b-fo-xem">
+                                <rect key="frame" x="16" y="179" width="99" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="Am8-sp-SuB"/>
+                                    <constraint firstAttribute="height" constant="30" id="MXm-yD-F2o"/>
+                                </constraints>
+                                <state key="normal" title="Show Encanta">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showEncanta" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uUF-y9-CRk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9Si-Vd-weU" firstAttribute="top" secondItem="9Zt-eU-W34" secondAttribute="bottom" constant="8" id="10b-jQ-b7q"/>
+                            <constraint firstItem="S1b-fo-xem" firstAttribute="top" secondItem="F9F-PD-iXq" secondAttribute="bottom" constant="28" id="2ra-ns-ZQg"/>
+                            <constraint firstItem="QeX-Fe-Nrw" firstAttribute="top" secondItem="9Si-Vd-weU" secondAttribute="bottom" constant="4" id="6Fn-oZ-FG2"/>
+                            <constraint firstItem="plF-Ch-O7H" firstAttribute="leading" secondItem="QeX-Fe-Nrw" secondAttribute="trailing" constant="8" id="74t-ZP-bDj"/>
+                            <constraint firstItem="S1b-fo-xem" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="GJa-Pj-qrr"/>
+                            <constraint firstItem="9Si-Vd-weU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="QdT-3S-dao"/>
+                            <constraint firstItem="QeX-Fe-Nrw" firstAttribute="leading" secondItem="F9F-PD-iXq" secondAttribute="trailing" constant="8" id="dYN-r9-K8c"/>
+                            <constraint firstItem="plF-Ch-O7H" firstAttribute="top" secondItem="9Si-Vd-weU" secondAttribute="bottom" constant="4" id="fSu-2h-jzu"/>
+                            <constraint firstItem="9Zt-eU-W34" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="jZ1-fS-dg4"/>
+                            <constraint firstItem="F9F-PD-iXq" firstAttribute="top" secondItem="9Si-Vd-weU" secondAttribute="bottom" constant="8" id="nBk-Oc-ncJ"/>
+                            <constraint firstItem="9Zt-eU-W34" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="ti2-j3-mR7"/>
+                            <constraint firstItem="F9F-PD-iXq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="xsB-6E-VHE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Encanta Demo - Swift" id="5h1-e4-5mo"/>
+                    <connections>
+                        <outlet property="chatEnableLabel" destination="9Zt-eU-W34" id="gG0-gx-cxV"/>
+                        <outlet property="nameField" destination="QeX-Fe-Nrw" id="wX4-Iv-fgA"/>
+                        <outlet property="unreadCountLabel" destination="9Si-Vd-weU" id="iXh-G5-GlZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1026" y="369"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Nov-Dy-Sjh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QLt-BP-DAX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ClP-9E-i04">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Cm0-mb-MjR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i2G-Dy-Gib" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="391" y="369"/>
+        </scene>
+    </scenes>
+</document>
