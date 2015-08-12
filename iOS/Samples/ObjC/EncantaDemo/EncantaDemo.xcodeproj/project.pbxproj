@@ -449,8 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/EncantaDemo/Encanta",
-					/Users/mike/github/encanta/iOS/SDK,
+					"$(PROJECT_DIR)/../../../SDK",
 				);
 				INFOPLIST_FILE = EncantaDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -465,8 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/EncantaDemo/Encanta",
-					/Users/mike/github/encanta/iOS/SDK,
+					"$(PROJECT_DIR)/../../../SDK",
 				);
 				INFOPLIST_FILE = EncantaDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
