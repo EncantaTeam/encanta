@@ -15,7 +15,7 @@ Create a new app and grab the application token.
 In the EncantaDemoApplication.java, replace the placeholder for the App token with the String value for your app as specified in the web portal:
 
 ```
-Encanta.init(this, "ENCANTA_APP_TOKEN”, onMessageReceivedListener, chatToggledListener);
+Encanta.init(this, "ENCANTA_APP_TOKEN", onMessageReceivedListener, chatToggledListener);
 ```
 
 Get the SDK
