@@ -28,7 +28,7 @@ Getting Sample Code Updates
 This README and the sample applications are maintained separately from
 releases of the [Encanta Android SDK][encanta-android-sdk]. To get the latest
 updates to these example applications and accompanying documentation, be sure
-to clone the sample repository itself from [here][encanta-android-sdk]
+to clone the sample repository itself from [here][encanta-android-sdk-root]
 
 [encanta-android-samples]: https://github.com/EncantaTeam/encanta/tree/master/Android/Samples
 [encanta-android-sdk-root]: http://github.com/EncantaTeam/encanta/tree/master/Android/SDK
