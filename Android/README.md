@@ -29,5 +29,5 @@ updates to these example applications and accompanying documentation, be sure
 to clone the sample repository itself from [here][encanta-android-sdk]
 
 [encanta-android-samples]: https://github.com/EncantaTeam/encanta/tree/master/Android/Samples
-[encanta-android-sdk]: http://github.com/EncantaTeam/encanta/tree/master/Android/SDK/get-the-right-path-to-latest-appCompat-retrofit1.9
+[encanta-android-sdk]: http://github.com/EncantaTeam/encanta/tree/master/Android/SDK/encanta-appcompatRetrofit1.9.aar
 
