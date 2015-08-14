@@ -1,0 +1,24 @@
+<resources>
+
+     <!-- Base application theme.-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style
+        name="ActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/encanta_action_bar_color</item>
+    </style>
+
+    <style name="EncantaTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/EncantaActionBar</item>
+    </style>
+
+    <style
+        name="EncantaActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/encanta_action_bar_color</item>
+    </style>
+
+</resources>

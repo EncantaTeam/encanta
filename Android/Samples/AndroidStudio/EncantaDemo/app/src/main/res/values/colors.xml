@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background color to use for the 'sent' message bubble -->
+    <color name="encanta_sent_message_bg">#5d7c81</color> <!--#ad515c</color>  #aDc980</color> -->
+    <!-- Background color to use for the 'received' message bubble -->
+    <color name="encanta_received_message_bg">#8d9cf1</color>
+    <!-- Background color to use for the messages activity -->
+    <color name="encanta_activity_bg">#114478</color>
+    <!-- Color to use for the action bar -->
+    <color name="encanta_action_bar_color">#225555</color>
+    <!-- Entry text color in the footer -->
+    <color name="encanta_chat_entry_text_color">#ff000000</color>
+    <!-- Background color of the footer text entry -->
+    <color name="encanta_footer_background">#D7D5D5</color>
+
+    <!-- Various colors within the popup, only used when Encanta.setPromptForUserName(true) is called -->
+    <color name="encanta_popup_message_bg">#1F2028</color>
+    <color name="encanta_popup_text">#FF000000</color>
+    <color name="encanta_popup_pressed">#506B6F</color>
+    <color name="encanta_popup_button_unpressed">#6BBEB8</color>
+    <color name="encanta_popup_button_background">#6DBEB8</color>
+    <color name="encanta_popup_title_text">#ff000000</color>
+    <color name="encanta_popup_description_text">#535459</color>
+
+</resources>

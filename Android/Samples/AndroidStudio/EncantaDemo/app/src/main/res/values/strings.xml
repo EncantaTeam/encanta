@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Encanta Demo</string>
+
+    <string name="hello_world">Encanta demo app usage</string>
+    <string name="menu_action_support_chat">Support chat</string>
+
+    <string name="encanta_action_bar_label">Support Chat</string>
+    <string name="encanta_send_support_chat_hint">Send Message</string>
+    <string name="encanta_no_chat_messages_text">Have questions? Send us a message! We are here to help.</string>
+    <string name="encanta_disabled_text">We are currently out of the office. Please leave a message and we will respond to your query upon our return.</string>
+
+    <!-- Used in the name entry popup, which is only shown when Encanta.setPromptForUserName(true) is called -->
+    <string name="encanta_name_entry_popup_title">Support Chat</string>
+    <string name="encanta_name_entry_popup_description">Please enter your name to start your support chat</string>
+    <string name="encanta_name_entry_popup_hint_text">Your name</string>
+    <string name="encanta_name_entry_popup_submit">OK</string>
+
+</resources>

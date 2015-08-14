@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.citrix.saas.convoi">
+
+    <application
+        android:name="com.citrix.saas.encantademo.EncantaDemoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/EncantaTheme" >
+        <activity
+            android:name="com.citrix.saas.encantademo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            tools:replace="android:label"
+            android:name="com.citrix.saas.encanta.GetSupportChatsActivity"
+            android:label="Support Chat"
+            android:parentActivityName="com.citrix.saas.encantademo.MainActivity" >
+        </activity>
+
+    </application>
+
+</manifest>

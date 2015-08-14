@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.citrix.saas.encantademo"
+        minSdkVersion 11
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.4.8.15.16.23.42"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile "com.google.android.gms:play-services-base:6.5.87"
+
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.pusher:pusher-java-client:0.3.3'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile ('com.citrix.saas.encanta:encanta-appcompatRetrofit1.9:@aar') {
+        transitive = true
+    }
+}
