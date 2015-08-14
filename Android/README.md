@@ -33,5 +33,6 @@ to clone the sample repository itself from [here][encanta-android-sdk]
 [encanta-android-samples]: https://github.com/EncantaTeam/encanta/tree/master/Android/Samples
 [encanta-android-sdk-root]: http://github.com/EncantaTeam/encanta/tree/master/Android/SDK
 [encanta-android-sdk]: http://github.com/EncantaTeam/encanta/tree/master/Android/SDK/encanta-appcompatRetrofit1.9.aar
-[encanta-android-dev-guide]: http://github.com/EncantaTeam/encanta/tree/master/Android/SDK/Encanta%20Developer's%20Guide%20-%20Android.pdf
-[encanta-android-styles-guide]: http://github.com/EncantaTeam/encanta/tree/master/Android/SDK/Customizable%20Styles.pdf
+[encanta-android-dev-guide]: https://github.com/EncantaTeam/encanta/blob/master/Android/Samples/Encanta%20Developer's%20Guide%20-%20Android.pdf
+[encanta-android-styles-guide]: https://github.com/EncantaTeam/encanta/blob/master/Android/Samples/Customizable%20Styles.pdf
+ 
