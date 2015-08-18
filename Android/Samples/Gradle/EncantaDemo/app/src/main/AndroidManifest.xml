@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="com.citrix.saas.convoi">
+          package="com.citrix.saas.encantademo">
 
     <application
         android:name="com.citrix.saas.encantademo.EncantaDemoApplication"
@@ -24,7 +24,6 @@
             android:label="Support Chat"
             android:parentActivityName="com.citrix.saas.encantademo.MainActivity" >
         </activity>
-
     </application>
 
 </manifest>

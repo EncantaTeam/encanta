@@ -19,7 +19,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-import com.citrix.saas.convoi.R;
 import com.citrix.saas.encanta.Encanta;
 
 public class MainActivity extends AppCompatActivity {
