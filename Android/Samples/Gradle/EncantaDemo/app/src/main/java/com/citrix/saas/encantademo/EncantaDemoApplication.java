@@ -27,10 +27,10 @@ public class EncantaDemoApplication extends Application {
     public void onCreate() {
         super.onCreate();
         appContext = this;
-        Encanta.init(this, "ENCANTA_APP_TOKEN", onMessageReceivedListener, chatToggledListener);
+        Encanta.setLogLevel(Log.DEBUG);
+        Encanta.init(this, "<ENCANTA_APP_TOKEN>", onMessageReceivedListener, chatToggledListener);
 //        Encanta.setUserId("id-for-a-unique-person");
         Encanta.setPromptForUserName(true);
-        Encanta.setLogLevel(Log.DEBUG);
     }
 
     OnChatEnabledToggled chatToggledListener = new OnChatEnabledToggled() {
@@ -44,7 +44,25 @@ public class EncantaDemoApplication extends Application {
                         public void run() {
                             getCurrentActivity().invalidateOptionsMenu();
                             // Handle event when real-time chat is enabled or disabled through the web console
-                            Toast.makeText(getAppContext(), "Encanta was set to be " + (enabled ? "on" : "off") + "!  Hide the option for the user to initiate a support chat, if desired", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getAppContext(), "Encanta was set to be " + (enabled ? "on" : "off") + "!  Toggle the option for the user to initiate a support chat, if desired", Toast.LENGTH_LONG).show();
+                        }
+                    });
+                }
+            };
+            new Thread(runnable).start();
+        }
+
+        @Override
+        public void onEncantaInitialized(final boolean chatEnabled) {
+            Runnable runnable = new Runnable() {
+                @Override
+                public void run() {
+                    handler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            getCurrentActivity().invalidateOptionsMenu();
+                            // Handle event when Encanta.init() finishes and the current state of the chatEnabled flag is sent to your app
+                            Toast.makeText(getAppContext(), "On initialization, Encanta was set to be " + (chatEnabled ? "on" : "off"), Toast.LENGTH_LONG).show();
                         }
                     });
                 }
