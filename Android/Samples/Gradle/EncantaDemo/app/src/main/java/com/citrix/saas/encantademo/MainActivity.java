@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         isEnabled.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Is Encanta enabled through the web console? " + (Encanta.isEnabled() ? "Yes" : "No"), Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Is Encanta enabled through the web console? " + (Encanta.isEnabled(true) ? "Yes" : "No"), Toast.LENGTH_LONG).show();
             }
         });
 
