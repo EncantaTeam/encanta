@@ -1,25 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Background color to use for the 'sent' message bubble -->
-    <color name="encanta_sent_message_bg">#5d7c81</color> <!--#ad515c</color>  #aDc980</color> -->
-    <!-- Background color to use for the 'received' message bubble -->
-    <color name="encanta_received_message_bg">#8d9cf1</color>
     <!-- Background color to use for the messages activity -->
     <color name="encanta_activity_bg">#114478</color>
+    <!-- Background color to use for the 'sent' message bubble -->
+    <color name="encanta_sent_message_bg">#5d7c81</color>
+    <!-- Background color to use for the 'received' message bubble -->
+    <color name="encanta_received_message_bg">#8d9cf1</color>
     <!-- Color to use for the action bar -->
     <color name="encanta_action_bar_color">#225555</color>
+    <!-- Text color in the chat bubbles -->
+    <color name="encanta_chat_text_color">#ffffff</color>
+    <!-- Status message text color -->
+    <color name="encanta_status_message_text_color">#ffffff</color>
     <!-- Entry text color in the footer -->
     <color name="encanta_chat_entry_text_color">#ff000000</color>
+    <!-- Entry text hint color in the footer -->
+    <color name="encanta_chat_entry_text_hint_color">#9A9AA0</color>
     <!-- Background color of the footer text entry -->
     <color name="encanta_footer_background">#D7D5D5</color>
+    <!-- Background color of the 'status message' box.  This box is used when a user has 0
+         chats sent, as well as if the user goes into the activity when chat is disabled through
+         the web console -->
+    <color name="encanta_status_message_bg">#1F2028</color>
 
     <!-- Various colors within the popup, only used when Encanta.setPromptForUserName(true) is called -->
-    <color name="encanta_popup_message_bg">#1F2028</color>
-    <color name="encanta_popup_text">#FF000000</color>
-    <color name="encanta_popup_pressed">#506B6F</color>
+    <!-- The color of the 'submit' and 'cancel' buttons when pressed on the popup -->
+    <color name="encanta_popup_button_pressed">#506B6F</color>
+    <!-- The color of the 'submit' and 'cancel' buttons when not pressed on the popup -->
     <color name="encanta_popup_button_unpressed">#6BBEB8</color>
-    <color name="encanta_popup_button_background">#6DBEB8</color>
-    <color name="encanta_popup_title_text">#ff000000</color>
+    <!-- The background color of the popup window -->
+    <color name="encanta_popup_background">#FFFFFF</color>
+    <!-- The color of the header text on the popup -->
+    <color name="encanta_popup_title_text">#FF000000</color>
+    <!-- The color of the description text on the popup -->
     <color name="encanta_popup_description_text">#535459</color>
+    <!-- The text color for the entry field on the popup -->
+    <color name="encanta_popup_entry_text">#535459</color>
+    <!-- The hint text color for the entry field on the popup -->
+    <color name="encanta_popup_entry_hint_text">#9A9AA0</color>
 
 </resources>
